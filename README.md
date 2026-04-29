@@ -1,5 +1,5 @@
-# moviedux
+# Panther Cinema
 
 <p align="center">
-  <img src="public/images/image.png" alt="moviedux" width="800px" />
+  <img src="public/images/image.png" alt="Pather Cinema" width="800px" />
 </p>

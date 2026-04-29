@@ -6,7 +6,7 @@ export default function Footer() {
   return <footer className='footer'>
 
     <p className="footer-text">
-        © {currentYear} MovieDux, All rights resevered 
+        © {currentYear} Panther Cinema, All rights resevered 
     </p>
   </footer>;
 }

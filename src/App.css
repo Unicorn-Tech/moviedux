@@ -1,0 +1,75 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  flex: 1;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #ffd700, #ffed4e);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #ffed4e, #ffd700);
+}
+
+/* Loading & Empty States */
+.loading {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.1rem;
+  color: #bbb;
+}
+
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 1.1rem;
+  color: #bbb;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  .search-input {
+    max-width: 100% !important;
+  }
+  
+  .header svg {
+    width: 140px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .header svg {
+    width: 120px;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  
+  .search-input {
+    margin-top: 10px;
+  }
+}
